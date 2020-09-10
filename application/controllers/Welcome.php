@@ -16,15 +16,16 @@ class Welcome extends CI_Controller {
 	 *
 	 * So any other public methods not prefixed with an underscore will
 	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
+	 * @see https://codeigniter.com/user_guide/general/urls.html GIT GIT GT GIT GIT
 	 */
 	public function __construct(){
 		parent:: __construct();
-		$this->load->model('modelUsers');
-		$this->load->model('modelVotar');
+		//$this->load->model('modelUsers');
+		//$this->load->model('modelVotar');
 	}
 	public function index()
 	{
+		$this->load->model('modelUsers');
 		$data['nombre'] ="";
 		$this->load->view('layout/header.php',$data);
 		$this->load->view('index.php');

@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class modelUsers extends CI_Model {
+class ModelUsers extends CI_Model {
     public function __construct()
     {
          $this->load->database();

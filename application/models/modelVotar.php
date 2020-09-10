@@ -1,5 +1,5 @@
 <?php
-class modelVotar extends CI_Model{
+class ModelVotar extends CI_Model{
     public function __construct() {
         parent::__construct();
         $this->load->database();

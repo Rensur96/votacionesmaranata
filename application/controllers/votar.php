@@ -21,7 +21,7 @@ class votar extends CI_Controller {
 	public function __construct()
 	{
 		parent:: __construct();
-		$this->load->model('ModelVotar');
+		$this->load->model('modelVotar');
 	}
 	public function index()
 	{

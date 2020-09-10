@@ -1,5 +1,6 @@
-<?php
-class ModelVotar extends CI_Model{
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+class modelVotar extends CI_Model{
     public function __construct() {
         parent::__construct();
         $this->load->database();

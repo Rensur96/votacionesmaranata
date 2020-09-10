@@ -1,0 +1,1 @@
+<script src="src/js/fraternidad.js"></script>
